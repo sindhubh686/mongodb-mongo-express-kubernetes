@@ -1,0 +1,11 @@
+# Real Kubernetes credentials
+mongo-secret.yaml
+
+# Environment files
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
