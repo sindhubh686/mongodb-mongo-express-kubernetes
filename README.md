@@ -1,7 +1,5 @@
 # Deploy MongoDB and Mongo Express on Local Kubernetes
 
-**Module 10: Container Orchestration with Kubernetes**
-
 A demo project that deploys MongoDB and Mongo Express to a local Kubernetes cluster running with Docker Desktop. Kubernetes ConfigMaps keep non-sensitive configuration separate from the application manifests, while Secrets provide database credentials.
 
 ## Technologies
