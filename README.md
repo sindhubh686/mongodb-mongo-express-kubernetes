@@ -104,7 +104,7 @@ kubectl logs <pod-name>
 
 ## Open Mongo Express
 
-If the Service is named `mongo-express-service` and uses the `LoadBalancer` type with `localhost` as its external address, open:
+Service is named `mongo-express-service` and uses the `LoadBalancer` type with `localhost` as its external address, open:
 
 **http://localhost:8081**
 
@@ -171,15 +171,6 @@ kubectl delete -f mongo-secret.yaml
 ```
 
 This removes the Kubernetes resources described by those files. Persistent data behavior depends on the storage configuration.
-
-## What I learned
-
-- Starting and using a local Kubernetes cluster with Docker Desktop.
-- Deploying applications with Kubernetes Deployments and Pods.
-- Connecting workloads with Kubernetes Services.
-- Separating non-sensitive configuration into ConfigMaps.
-- Supplying credentials through Secrets.
-- Inspecting and troubleshooting Kubernetes resources.
 
 ## Author
 
