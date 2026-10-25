@@ -2,4 +2,4 @@ NOTES:
 
 Mongo Express running locally through Docker Desktop Kubernetes:
 
-mongo-express.png
+![Mongo Express Dashboard](./mongo-express.png)
